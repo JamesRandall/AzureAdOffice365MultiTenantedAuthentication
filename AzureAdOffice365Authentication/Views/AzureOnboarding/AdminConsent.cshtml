@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "AdminConsent";
+}
+
+<div style="padding-top: 1em;">
+    <form method="POST" class="form-horizontal" autocomplete="off">
+        <input type="hidden" name="proceed" value="true" />
+        <div class="row">
+            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-lg-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Associate Azure AD / Office 365 Domain</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Click the button below to associate the application with your Azure AD / Office 365 logins.</p>
+                        <p>To complete these process you need to be an Administrator in the domain you wish to allow logins from.</p>
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-block">Grant Consent</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2"></div>
+        </div>
+    </form>
+</div>
